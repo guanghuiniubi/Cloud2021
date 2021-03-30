@@ -13,6 +13,7 @@
         <module>cloud-eureka</module>
         <module>cloud-order</module>
         <module>cloud-eureka-8002</module>
+        <module>cloud-payment-8081</module>
     </modules>
 
     <packaging>pom</packaging>
