@@ -5,11 +5,11 @@ spring:
     name: cloud-eureka-service
 eureka:
   instance:
-    hostname: localhost #eureka服务端的实例名称
+    hostname: eureka7001.com #eureka服务端的实例名称
   client:
     #false标识不向注册中心注册自己
     register-with-eureka: false
     #false表示自己本身就是注册中心的服务端
     fetch-registry: false
     service-url:
-        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+        defaultZone: http://eureka8002.com:8002/eureka/

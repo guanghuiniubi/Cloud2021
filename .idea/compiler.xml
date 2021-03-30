@@ -11,6 +11,7 @@
         <module name="cloud-order" />
         <module name="cloud-payment" />
         <module name="cloud-api-commons" />
+        <module name="cloud-eureka-8002" />
       </profile>
     </annotationProcessing>
   </component>

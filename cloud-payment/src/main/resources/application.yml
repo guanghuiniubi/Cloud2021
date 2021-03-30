@@ -25,7 +25,7 @@ eureka:
     #从eurekaserver抓取已注册的服务信息，默认位true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka8002.com:8002/eureka/
   instance:
     instance-id: payment8080
     prefer-ip-address: true

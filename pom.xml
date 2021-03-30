@@ -12,6 +12,7 @@
         <module>cloud-api-commons</module>
         <module>cloud-eureka</module>
         <module>cloud-order</module>
+        <module>cloud-eureka-8002</module>
     </modules>
 
     <packaging>pom</packaging>
