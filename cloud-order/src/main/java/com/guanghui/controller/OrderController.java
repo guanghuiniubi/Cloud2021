@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @RestController
 public class OrderController extends BaseController {
-    private static final String PAYMENT_KEY="http://localhost:8080";
+    private static final String PAYMENT_KEY="http://CLOUD-PAYMENT-SERVICE";
 
     @Autowired
     private RestTemplate restTemplate;

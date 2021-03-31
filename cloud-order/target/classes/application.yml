@@ -12,4 +12,16 @@ eureka:
     #从eurekaserver抓取已注册的服务信息，默认位true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka8002.com:8002/eureka/
+  instance:
+    instance-id: order80
+    prefer-ip-address: true
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 3000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
+  OkToRetryOnAllOperations: true
+  restclient:
+    enabled: true

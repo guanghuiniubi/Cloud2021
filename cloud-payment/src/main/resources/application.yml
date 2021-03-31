@@ -36,5 +36,6 @@ logging:
     path: ./logs
     max-size: 100MB
     max-history: 7
-  level: info
+  level:
+    root: info
   config: classpath:logback-spring.xml

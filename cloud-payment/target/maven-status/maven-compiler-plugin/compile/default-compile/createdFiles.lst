@@ -1,5 +1,5 @@
 com\guanghui\service\PaymentService.class
-com\guanghui\PaymentApplication.class
 com\guanghui\controller\PaymentController.class
 com\guanghui\mapper\PaymentMapper.class
 com\guanghui\serviceImpl\PaymentServiceImpl.class
+com\guanghui\PaymentApplication.class

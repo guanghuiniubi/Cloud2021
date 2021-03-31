@@ -12,4 +12,4 @@ eureka:
     #false表示自己本身就是注册中心的服务端
     fetch-registry: false
     service-url:
-        defaultZone: http://eureka7001:7001/eureka/
+        defaultZone: http://eureka7001.com:7001/eureka/

@@ -16,3 +16,12 @@ eureka:
   instance:
     instance-id: order80
     prefer-ip-address: true
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 3000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
+  OkToRetryOnAllOperations: true #支持重试所有请求  false只重试get请求
+  restclient:
+    enabled: true
