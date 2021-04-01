@@ -1,3 +1,4 @@
 com\guanghui\controller\OrderController.class
+com\mySelRule\mySelRule.class
 com\guanghui\config\ApplicationContextConfig.class
 com\guanghui\OrderSpringbootApplication.class

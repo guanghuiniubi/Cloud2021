@@ -10,7 +10,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @Slf4j
 @MapperScan(value = "com.guanghui.mapper")
-@ServletComponentScan(value = "com.guanghui")
 @SpringBootApplication
 @EnableEurekaClient
 public class Payment8081Application {

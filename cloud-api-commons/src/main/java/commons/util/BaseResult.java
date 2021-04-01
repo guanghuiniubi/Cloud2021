@@ -1,5 +1,7 @@
 package commons.util;
 
+import com.sun.org.apache.bcel.internal.classfile.Code;
+
 public abstract class BaseResult {
 
 
@@ -32,6 +34,9 @@ public abstract class BaseResult {
 
     public ResponseResult successful(int code, String message) {
         return result(code, message, null);
+    }
+    public ResponseResult successful(int code,String message,Object data) {
+        return result(code,message,null);
     }
 
     public ResponseResult failure() {

@@ -22,6 +22,6 @@ ribbon:
   ReadTimeout: 3000
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 2
-  OkToRetryOnAllOperations: true
+  OkToRetryOnAllOperations: true #支持重试所有请求  false只重试get请求
   restclient:
     enabled: true
